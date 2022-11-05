@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pizza-menus {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 35px;
+    }
+
+    .pizza-menu-column h4 {
+        margin-bottom: 10px;
+    }
+
+    .pizza-single-menu {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        margin-bottom: 32px;
+
+    }
+
+    .pizza-single-menu img {
+        border-radius: 50%;
+    }
+
+    /* .pizza-single-menu{
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, lightblue 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+} */
+    .pizza-single-menu:hover {
+        background-position: left;
+    }
+
+    /* .pizza-single-menu img:hover{
+   
+   box-shadow: 10px 9px 20px rgb(73, 23, 23);
+   
+} */
+    .pizza-single-menu img {
+        box-shadow: 10px 9px 20px rgb(73, 23, 23);
+    }
+
+    span {
+        margin-left: 5px;
+        color: rgb(255, 180, 74);
+        font-size: 14px;
+    }
+
+    .pizza-menus {
+        background-color: rgba(160, 0, 0, 0.97);
+        color: aliceblue;
+    }
+
+    .pizza-menu-content1 {
+        text-align: center;
+        font-family: MV Boli;
+
+    }
+
+    .pizza-menu-content1 h2 {
+
+        font-size: 50px;
+        color: brown;
+
+    }
+
+    .p {
+        background-color: rgb(255, 179, 0);
+        color: aliceblue;
+        padding: 15px 0 15px 17px;
+        font-size: 30px;
+
+
+    }
+
+    .btnP {
+        padding: 5px 17px;
+        border: none;
+        border-radius: 15px;
+        background-color: rgb(255, 84, 112);
+        margin-bottom: 22px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .btnP:hover {
+        background-color: bisque;
+        color: rgb(216, 34, 34);
+    }
+
+    /* body{
+    background: url(./image1.jpg) no-repeat center center/cover;
+} */
+</style>
+
+<body>
+    <p class="p">Our PIZZA Menus</p>
+
+    <div class="pizza-menus">
+        <div class="pizza-menu-column">
+            <!-- <h4>breakfast</h4> -->
+            <div class="pizza-single-menu">
+                <img src="./pizz1.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Cheese Pizza<span>......₹150 | 210 | 319</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+            <div class="pizza-single-menu">
+                <img src="./pizz2.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Veggie Pizza<span>......₹140 | 230 | 310</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+            <div class="pizza-single-menu">
+                <img src="./pizz3.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Pepperoni Pizza<span>......₹110 | 220 | 315</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+
+
+        </div>
+        <div class="pizza-menu-column">
+            <!-- <h4>breakfast</h4> -->
+            <div class="pizza-single-menu">
+                <img src="./pizz4.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Meat Pizza<span>......₹160 | 250 | 370</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+            <div class="pizza-single-menu">
+                <img src="./pizz5.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Margherita Pizza<span>......₹150 | 220 | 325</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+            <div class="pizza-single-menu">
+                <img src="./pizz6.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>BBQ pizza<span>......₹139 | 259 | 320</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+            <div class="pizza-single-menu">
+                <!-- <img src="./image2.gif" height="100px" width="100px"> -->
+                <div class="pizza-menu-content1">
+                    <h2>Welcome</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="pizza-menu-column">
+            <!-- <h4>breakfast</h4> -->
+            <div class="pizza-single-menu">
+                <img src="./pizz7.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Hawallan Pizza<span>......₹160 | 250 | 369</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+            <div class="pizza-single-menu">
+                <img src="./pizz8.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Buffalo Pizza<span>₹190 | 280 | 379</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+            <div class="pizza-single-menu">
+                <img src="./pizz9.jpg" height="100px" width="100px">
+                <div class="pizza-menu-content">
+                    <h5>Paner Pizza<span>......₹120 | 210 | 330</span></h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button class="btnP"> Add</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./jquery-3.6.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.btnP').click(function () {
+                alert("ADDED");
+               
+            })
+        })
+    </script>
+</body>
+
+</html>
